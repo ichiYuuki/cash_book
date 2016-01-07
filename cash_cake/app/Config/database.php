@@ -74,7 +74,7 @@ class DATABASE_CONFIG {
 		'host' => 'localhost',
 		'login' => 'root',
 		'password' => '',
-		'database' => 'cashu_book',
+		'database' => 'cash_book',
 		'prefix' => '',
 		'encoding' => 'utf8',
 	);
