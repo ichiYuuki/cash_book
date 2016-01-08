@@ -1,0 +1,27 @@
+2016-01-07 22:58:13 Error: [MissingControllerException] Controller class PayeeController could not be found.
+Exception Attributes: array (
+  'class' => 'PayeeController',
+  'plugin' => NULL,
+)
+Request URL: /cash_cake/payee
+Stack Trace:
+#0 C:\xampp\htdocs\cash_cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-08 07:51:09 Error: [MissingControllerException] Controller class DetailsController could not be found.
+Exception Attributes: array (
+  'class' => 'DetailsController',
+  'plugin' => NULL,
+)
+Request URL: /cash_cake/details
+Stack Trace:
+#0 C:\xampp\htdocs\cash_cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-08 07:52:24 Error: [MissingControllerException] Controller class DetailsController could not be found.
+Exception Attributes: array (
+  'class' => 'DetailsController',
+  'plugin' => NULL,
+)
+Request URL: /cash_cake/details
+Stack Trace:
+#0 C:\xampp\htdocs\cash_cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
