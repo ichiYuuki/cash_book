@@ -3,6 +3,7 @@ App::uses('AppModel', 'Model');
 /**
  * Payee Model
  *
+ * @property Journal $Journal
  */
 class Payee extends AppModel {
 
@@ -30,4 +31,28 @@ class Payee extends AppModel {
 			),
 		),
 	);
+
+	//The Associations below have been created with all possible keys, those that are not needed can be removed
+
+/**
+ * hasMany associations
+ *
+ * @var array
+ */
+	public $hasMany = array(
+		'Journal' => array(
+			'className' => 'Journal',
+			'foreignKey' => 'payee_id',
+			'dependent' => false,
+			'conditions' => '',
+			'fields' => '',
+			'order' => '',
+			'limit' => '',
+			'offset' => '',
+			'exclusive' => '',
+			'finderQuery' => '',
+			'counterQuery' => ''
+		)
+	);
+
 }
