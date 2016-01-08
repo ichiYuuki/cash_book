@@ -13,7 +13,9 @@ class DetailTest extends CakeTestCase {
  * @var array
  */
 	public $fixtures = array(
-		'app.detail'
+		'app.detail',
+		'app.journal',
+		'app.payee'
 	);
 
 /**

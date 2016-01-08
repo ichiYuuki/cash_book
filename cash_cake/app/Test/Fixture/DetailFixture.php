@@ -29,8 +29,8 @@ class DetailFixture extends CakeTestFixture {
 	public $records = array(
 		array(
 			'id' => 1,
-			'created' => '2016-01-08 09:10:54',
-			'modified' => '2016-01-08 09:10:54',
+			'created' => '2016-01-08 10:10:07',
+			'modified' => '2016-01-08 10:10:07',
 			'detail_name' => 'Lorem ipsum dolor sit amet'
 		),
 	);

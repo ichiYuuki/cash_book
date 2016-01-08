@@ -32,8 +32,8 @@ class JournalFixture extends CakeTestFixture {
 	public $records = array(
 		array(
 			'id' => 1,
-			'created' => '2016-01-08 08:26:37',
-			'modified' => '2016-01-08 08:26:37',
+			'created' => '2016-01-08 10:11:31',
+			'modified' => '2016-01-08 10:11:31',
 			'payee_id' => 1,
 			'detail_id' => 1,
 			'amount' => 1,

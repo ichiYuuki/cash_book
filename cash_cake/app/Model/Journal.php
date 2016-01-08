@@ -13,7 +13,7 @@ class Journal extends AppModel {
  *
  * @var string
  */
-	public $displayField = 'payed_date';
+	public $displayField = 'amount';
 
 /**
  * Validation rules
