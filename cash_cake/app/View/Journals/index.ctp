@@ -23,7 +23,7 @@
 			<?php echo $this->Html->link($journal['Payee']['payee_name'], array('controller' => 'payees', 'action' => 'view', $journal['Payee']['id'])); ?>
 		</td>
 		<td>
-			<?php echo $this->Html->link($journal['Detail']['id'], array('controller' => 'details', 'action' => 'view', $journal['Detail']['id'])); ?>
+			<?php echo $this->Html->link($journal['Detail']['detail_name'], array('controller' => 'details', 'action' => 'view', $journal['Detail']['id'])); ?>
 		</td>
 		<td><?php echo h($journal['Journal']['amount']); ?>&nbsp;</td>
 		<td><?php echo h($journal['Journal']['payed_date']); ?>&nbsp;</td>
