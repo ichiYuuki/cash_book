@@ -13,7 +13,9 @@ class PayeeTest extends CakeTestCase {
  * @var array
  */
 	public $fixtures = array(
-		'app.payee'
+		'app.payee',
+		'app.journal',
+		'app.detail'
 	);
 
 /**

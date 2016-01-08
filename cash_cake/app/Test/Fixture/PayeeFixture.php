@@ -29,8 +29,8 @@ class PayeeFixture extends CakeTestFixture {
 	public $records = array(
 		array(
 			'id' => 1,
-			'created' => '2016-01-07 22:55:56',
-			'modified' => '2016-01-07 22:55:56',
+			'created' => '2016-01-08 09:18:44',
+			'modified' => '2016-01-08 09:18:44',
 			'payee_name' => 'Lorem ipsum dolor sit amet'
 		),
 	);
