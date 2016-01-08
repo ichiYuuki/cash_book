@@ -14,7 +14,8 @@ class PayeesControllerTest extends ControllerTestCase {
  */
 	public $fixtures = array(
 		'app.payee',
-		'app.journal'
+		'app.journal',
+		'app.detail'
 	);
 
 /**

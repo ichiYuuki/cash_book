@@ -52,3 +52,39 @@ Request URL: /cash_cake/journals/add
 Stack Trace:
 #0 C:\xampp\htdocs\cash_cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2016-01-08 08:45:52 Error: [MissingControllerException] Controller class DetailsController could not be found.
+Exception Attributes: array (
+  'class' => 'DetailsController',
+  'plugin' => NULL,
+)
+Request URL: /cash_cake/details
+Stack Trace:
+#0 C:\xampp\htdocs\cash_cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-08 08:45:54 Error: [MissingControllerException] Controller class DetailsController could not be found.
+Exception Attributes: array (
+  'class' => 'DetailsController',
+  'plugin' => NULL,
+)
+Request URL: /cash_cake/details/add
+Stack Trace:
+#0 C:\xampp\htdocs\cash_cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-08 08:45:56 Error: [MissingControllerException] Controller class DetailsController could not be found.
+Exception Attributes: array (
+  'class' => 'DetailsController',
+  'plugin' => NULL,
+)
+Request URL: /cash_cake/details
+Stack Trace:
+#0 C:\xampp\htdocs\cash_cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-08 08:49:24 Error: [MissingControllerException] Controller class DetailsController could not be found.
+Exception Attributes: array (
+  'class' => 'DetailsController',
+  'plugin' => NULL,
+)
+Request URL: /cash_cake/details
+Stack Trace:
+#0 C:\xampp\htdocs\cash_cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

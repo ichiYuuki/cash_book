@@ -43,7 +43,7 @@
 		<th><?php echo __('Created'); ?></th>
 		<th><?php echo __('Modified'); ?></th>
 		<th><?php echo __('Payee Id'); ?></th>
-		<th><?php echo __('Details Id'); ?></th>
+		<th><?php echo __('Detail Id'); ?></th>
 		<th><?php echo __('Amount'); ?></th>
 		<th><?php echo __('Payed Date'); ?></th>
 		<th class="actions"><?php echo __('Actions'); ?></th>
@@ -54,7 +54,7 @@
 			<td><?php echo $journal['created']; ?></td>
 			<td><?php echo $journal['modified']; ?></td>
 			<td><?php echo $journal['payee_id']; ?></td>
-			<td><?php echo $journal['details_id']; ?></td>
+			<td><?php echo $journal['detail_id']; ?></td>
 			<td><?php echo $journal['amount']; ?></td>
 			<td><?php echo $journal['payed_date']; ?></td>
 			<td class="actions">
